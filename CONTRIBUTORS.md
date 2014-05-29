@@ -1,4 +1,5 @@
-These are people who have implemented code in dogescript, or have directly influenced a new feature in dogescript. Thank you! (If I missed you, please let me know.)
+Shakescript was created by Rahul Tiwari. It's based off of dogescript, which wouldn't have been possible without the following fine coders:
+
 
 * @remixz
 * @Lockyy
