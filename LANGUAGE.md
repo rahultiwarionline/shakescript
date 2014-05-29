@@ -1,4 +1,4 @@
-## shakesscript spec (0.0.1)
+## shakescript spec (0.0.1)
 
 ### notes
 
