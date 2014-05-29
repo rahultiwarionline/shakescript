@@ -44,7 +44,7 @@ if (argv._[0]) {
     var ds = new Stream();
     // pipe stdin through the dogescript translator to the repl
     repl.start({
-        prompt : "DOGE> ",
+        prompt : "CODER:  ",
         input  : ds,
         output : process.stdout
     });
