@@ -1,5 +1,5 @@
 
-## shakescript [![NPM version]()]
+## shakescript [NPM Version]
 
 (A shakespearean take on Javascript)
 
@@ -27,11 +27,11 @@ And yes, I am very aware I went about a very, er, *non-conventional*, way of par
 Options:
 
 * `--beautify` - Runs the code through a beautifier.
-* `--true-doge` - Implements "true doge" mode, which splits lines by 3 spaces, instead of by newlines. This stays behind a flag until the spacing it exports is identical to non-true-doge mode.
+* `--true-shake` - Implements "true doge" mode, which splits lines by 3 spaces, instead of by newlines. This stays behind a flag until the spacing it exports is identical to non-true-doge mode.
 
 #### Javascript
 
-`shakescript(file, beauty, trueDoge)`
+`shakescript(file, beauty, trueShake)`
 * `file` - A string of Dogescript.
 * `beauty` - A boolean, set to true if you want the output to be ran through a beautifier.
-* `trueDoge` - A boolean, set to true if you want to enable true-doge mode.
+* `trueShake` - A boolean, set to true if you want to enable true-doge mode.
