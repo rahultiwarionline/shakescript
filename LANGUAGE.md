@@ -14,26 +14,20 @@ shakescript files are `.sjs`. Should shakescript be ported to other languages, t
 
 * `but soft! [comment]` - `// [comment]` 
 * `what's in a name [var] that which we call [value]` - `var [var] = [value]`
-* `[var], O, speak again, bright angel! for thou [value]` - `[var] = [value]`
+* `[var] that which we call [value]` - `[var] = [value]`
 * `than this of [name] and her [variables]` - `function [name] ([variables])`
 * `(he exits)` - `}`
 * `(they exit)` - `})`
 * 
 * `Thou blind fool, [function] what dost thou to mine [variables]` - `[function]([variables])`
 * `Thou blind fool, [function] what dost thou to mine [variables..] with thy [arguments]` - `[function]([variables..], function ([arguments]) {})`
-* 
 * `to be [params]` - `if ([params])`
-* `or [params]` - `else if ([params])`
 * `not to be` - `else`
-* 
-* 
 * `if they shall not be so, those [params]` - `if (! [params])`
 * `Shall I hear more [params]` - `while ([params])`
 * `tis [params]` - `for ([params])`
-* 
 * `thy requireth [module]` - `var [module] = require([module])`
 * `thy requireth [module] under the devine name [name]` - `var [name] = require([module])`
-* 
 * `soliloquy` - `.` (example: `console soliloquy stage with 'what light through yonder...' => console.log('what light through yonder...')`)
 * `Thou hast not loved` - `"use strict"`
 
