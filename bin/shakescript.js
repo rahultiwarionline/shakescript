@@ -5,13 +5,13 @@ var path     = require('path');
 var util     = require('util');
 var stream   = require('stream');
 var repl     = require('repl');
-var argv     = require('optimist').usage('Usage: dogescript <file>').argv;
+var argv     = require('optimist').usage('Usage: shakescript <file>').argv;
 var beautify = require('js-beautify').js_beautify;
 var parser   = require('../lib/parser');
 
 if (argv._[0]) {
     var file = fs.readFile(path.resolve(process.cwd(), argv._[0]), {encoding: 'utf-8'}, function (err, script) {
-        if (argv['true-doge']) var lines = script.split(/ {3,}|\r?\n/);
+        if (argv['true-shake']) var lines = script.split(/ {3,}|\r?\n/);
         else var lines = script.split(/\r?\n/);
         var output = '';
 
@@ -42,7 +42,7 @@ if (argv._[0]) {
     }
 
     var ds = new Stream();
-    // pipe stdin through the dogescript translator to the repl
+    // pipe stdin through the shakescript translator to the repl
     repl.start({
         prompt : "CODER:  ",
         input  : ds,
