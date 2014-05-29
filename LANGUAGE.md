@@ -3,8 +3,8 @@
 ### notes
 
 * shakescript uses single quotes for strings. Double quotes are not supported.
-* shakesscript uses 4 space characters for indentation. Tabs are not supported.
-* shakesscript seperates statements by newlines by default. In true-speare mode, they are separated by 3 spaces.
+* shakescript uses 4 space characters for indentation. Tabs are not supported.
+* shakescript seperates statements by newlines by default. In true-speare mode, they are separated by 3 spaces.
 
 ### files
 
