@@ -1,20 +1,20 @@
 {
-  "name": "dogescript",
-  "version": "2.3.0",
-  "description": "wow so syntax very doge much future",
+  "name": "shakescript",
+  "version": "0.0.1",
+  "description": "A shakespearean take on javascript",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/remixz/dogescript.git"
+    "url": "https://github.com/rahultiwarionline/shakescript.git"
   },
   "keywords": [
-    "wow"
+    "What light through younder window breaks!"
   ],
-  "author": "Zach Bruggeman <zachb@diy.org>",
+  "author": "Rahul Tiwari",
   "license": "MIT",
   "dependencies": {
     "optimist": "~0.6.0",
     "js-beautify": "~1.4.2"
   },
-  "bin": "./bin/dogescript.js"
+  "bin": "./bin/shakescript.js"
 }
